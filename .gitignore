@@ -39,5 +39,5 @@ vignettes/*.pdf
 .Renviron
 
 # Other file
-.rds
-.html
+*.rds
+*.html
