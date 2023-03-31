@@ -1,3 +1,4 @@
+# Introduction to mapping in R
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(terra, sf, purrr, leaflet, htmlwidgets, RColorBrewer, dplyr)
 
@@ -38,4 +39,5 @@ sample_map <- leaflet(shp) %>%
             values = shp$traveltimetomarket_ssa_020k,
             opacity = 0.7, title = "Travel time (Hours)", position = "topright")
 
+#. Save map
 saveWidget(sample_map, file="sample_map.html")
