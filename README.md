@@ -6,6 +6,7 @@
 4. Practice Git workflow
 * Create a new branch on your local machine `git checkout -b <branch>`
 * Make changes to the R code
-* Commit your changes
+* Stage changes `git add .`
+* Commit your changes `git commit -m "changed xx"`
 * Push changes to Github `git push -u origin <branch>`
 * Create a pull request on Github
